@@ -5,10 +5,12 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="terminals">
-            <textarea id="terminalOutput" rows="30" cols="50" disabled></textarea>
-            <textarea id="terminalInput" onkeydown="onTerminalInputKeyPress(event);" rows="1" cols="50"></textarea>
+        <div id="monitor">
+            <div id="screen">
+                <textarea id="terminalOutput" rows="30" cols="50" disabled></textarea>
+                <textarea id="terminalInput" onkeydown="onTerminalInputKeyPress(event);" rows="1" cols="50"></textarea>
+            </div>
         </div>
-        <script src="war.js"></script>
+        <script src="terminal.js"></script>
     </body>
 </html>
